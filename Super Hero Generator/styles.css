@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #685b5b;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: purple;
+    padding: 20px 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+header:hover {
+    color: #8162a8; 
+}
+
+header:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+    text-shadow: 0 0 8px purple, 0 0 10px #ff00ff;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4), 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #8162a8; 
+}
+
+
+button:active {
+    transform: translateY(1px);}
+
+
+#superhero-display {
+    margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#hero-name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#hero-description {
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#hero-name:hover {
+    text-shadow: 0 0 10px purple, 0 0 20px #ff00ff;
+    transition: all 0.3s ease;
+    font-size: 45px;
+    transition: font-size 0.3s ease;
+}
+
+#hero-description:hover {
+    text-shadow: 0 0 5px purple, 0 0 10px #ff00ff;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+
+}
+
+#superhero-display:hover {
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.6), 0 0 25px rgba(255, 0, 255, 0.8);
+    transition: box-shadow 0.4s ease;
+}
+
+#hero-name {
+    position: relative;
+}
+
+#hero-name::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: purple;
+    transition: width 0.3s ease;
+}
+
