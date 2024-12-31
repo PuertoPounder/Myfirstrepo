@@ -1,13 +1,13 @@
 import FooterNasa from "./components/FooterNasa"
 import MainNasa from "./components/MainNasa"
-import SideBarNasa from "./components/SideBarNasa"
+import SidebarNasa from "./components/SidebarNasa"
 
 function App() {
 
   return (
     <>
   
-  <SideBarNasa></SideBarNasa>
+  <SidebarNasa></SidebarNasa>
   <MainNasa></MainNasa>
   <FooterNasa></FooterNasa>
   

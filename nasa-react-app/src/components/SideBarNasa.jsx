@@ -1,4 +1,4 @@
-export default function SideBarNasa() {
+export default function SidebarNasa() {
     return (
         <div>
             <h2>The Brutal Martian Lanscape</h2>
