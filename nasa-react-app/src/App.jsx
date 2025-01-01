@@ -7,9 +7,9 @@ function App() {
   return (
     <>
   
+  <MainNasa />
   <SidebarNasa></SidebarNasa>
-  <MainNasa></MainNasa>
-  <FooterNasa></FooterNasa>
+  <FooterNasa />
   
 
 
