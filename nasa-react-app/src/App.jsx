@@ -36,13 +36,15 @@ function App() {
 
       {data ? (<MainNasa />) : (
         <div className="loadingState">
-
+          <i className="fa-solid fa-gear"></i>  
         </div>
       )}
       {showModal && (
-        <SidebarNasa handleToggleModal={handleToggleModal} />
+        <SidebarNasa data={data} handleToggleModal={handleToggleModal} />
       )}
-      <FooterNasa handleToggleModal={handleToggleModal} />
+      {data &&(
+        <FooterNasa data={data} handleToggleModal={handleToggleModal} />
+      )}
 
     </>
   )
